@@ -104,7 +104,7 @@ const RegistrationForm = () => {
               <Form className="card-body">
                 {/* ข้อมูลทั่วไป */}
                 <h5 className="fw-bolder mb-3">ข้อมูลทั่วไป</h5>
-                <div className="rounded border p-4">
+                <div className="rounded border p-4" id="Invalid01">
                   {/* คำนำหน้า */}
                   <div className="row">
                     <div className="col-lg-2 mb-3">
@@ -378,7 +378,7 @@ const RegistrationForm = () => {
                 <h5 className="fw-bolder mt-5 mb-3" id="contact">
                   ข้อมูลติดต่อ
                 </h5>
-                <div className="rounded border p-4">
+                <div className="rounded border p-4" id="Invalid02">
                   <div className="mb-3">
                     <label htmlFor="mobile" className="form-label">
                       เบอร์มือถือ <span className="text-danger">*</span>
